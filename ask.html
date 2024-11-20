@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduTech - Chatbot</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/css/uikit.min.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="Assets/Favicon.png" alt="EduTech Logo" class="logo">
+        <h1 class="brand-name">EduTech</h1>
+      </div>
+      <div class="nav-links">
+        <a href="ask.html">New Chat</a>
+        <a href="#history">Recent</a>
+        <a href="welcome.html">Home</a>
+        
+      </div>
+      <div class="mode">
+        <button class="uk-button uk-button-default" type="button">Theme</button>
+        <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
+            <ul class="uk-nav uk-dropdown-nav">
+                <li><a href="#">Light Mode</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Dark Mode</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <div class="ask-welcome">
+        <img src="Assets/hi.jpg">
+        <div class="s-name">
+            Hi,Student Name
+        </div>
+        <div class="query-welcome">
+            Can I help you with anything?
+        </div>
+        <p>
+            Ready to assist you with anything you need,from answering questions to provide recommendations. Let's gets started!
+        </p>
+    </div>
+
+    <!-- Chat Section -->
+    <main class="chat-container">
+      <div class="chat-header">
+        <h2>Ask - Your AI Assistant</h2>
+      </div>
+      <div id="chat-window" class="chat-window">
+        <div class="welcome-message">
+          <p>Hi there! I'm Ask AI. How can I assist you today?</p>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input id="user-input" type="text" placeholder="Type your query here..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </main>
+  </div>
+  <script src="script2.js"></script>
+  <!-- Include UIKit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

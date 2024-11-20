@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/css/uikit.min.css" />
+</head>
+<body>
+    <div class="welcome-nav welcome-nav2">
+        <div class="logo">
+            <img src="Assets/Favicon.png">
+            <p class="logo-txt1">EduTech</p>
+        </div>
+        <div class="rhs-nav">
+            <p uk-margin>
+                <a href="welcome.html">
+                    <button class="uk-button uk-button-primary">Home</button>
+                </a>
+            </p>
+            <div class="mode">
+                <button class="uk-button uk-button-default" type="button">Theme</button>
+                <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
+                    <ul class="uk-nav uk-dropdown-nav">
+                        <li><a href="#">Light Mode</a></li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="#">Dark Mode</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="student-login-main">
+        <div class="register-side">
+            <div class="r-side1">      
+                <p class="rs1-p1">Welcome To College Website</p>
+                <p class="rs1-p2">The Modern Education and Research to enhance the knowledge of students.</p>
+            </div>
+            
+            <div class="r-side2">
+                <p class="rs2-p1">Don't have an account?</p>
+                <a href="studentregister.html">
+                    <button class="rs2-b1 red-btn">Register</button>
+                </a>
+            </div>
+        </div>
+        <div class="login-side-main">
+            <div class="login-side">
+                <h1>Student Login</h1>
+                <form class="slogin-form">
+                    <label for="roll" class="login-label">Roll Number</label>
+                    <input type="number" name="roll" id="roll" placeholder="Enter Your Roll Number" class="login-input">
+                    <label for="pass" class="login-label">Password</label>
+                    <input type="password" name="pass" id="pass" placeholder="Enter Password" class="login-input">
+                    <button class="login-button red-btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Include UIKit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

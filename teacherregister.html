@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/css/uikit.min.css" />
+</head>
+<body>
+    <div class="registration">
+        <div class="welcome-nav welcome-nav2">
+            <div class="logo">
+                <img src="Assets/Favicon.png">
+                <p class="logo-txt1">EduTech</p>
+            </div>
+            <div class="rhs-nav">
+                <p uk-margin>
+                    <a href="welcome.html">
+                        <button class="uk-button uk-button-primary">Home</button>
+                    </a>
+                </p>
+                <div class="mode">
+                    <button class="uk-button uk-button-default" type="button">Theme</button>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li><a href="#">Light Mode</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Dark Mode</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register-head">
+            <div class="heading">
+                <h1>Registeration Form</h1>
+            </div>
+            <div class="main">
+                <div class="main-head">
+                    <h2>(Teachers)</h2>
+                </div>
+                <p>Please fill the form below</p>
+            </div>
+            <div class="profile">
+                <div class="circle">
+                    <label for="pic">Choose Profile Picture</label>
+                    <input type="file" name="pic" id="pic">
+                </div>
+            </div>
+        </div>
+        <div class="register-main-student">
+            <div class="forms">
+                <form class="form1">
+                    <input type="text" name="fname" id="fname" placeholder="First Name*">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name*">
+                    <input type="text" name="dep" id="dep" placeholder="Department*">
+                    <input type="text" name="gender" id="gender" placeholder="Gender">
+                    <input type="date" name="dob" id="dob" placeholder="Date of Birth*">
+                </form>
+                <form class="form2">
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                    <input type="tel" name="mobile" id="mobile" placeholder="Phone Number*">
+                    <input type="number" name="adhaar" id="adhaar" placeholder="Adhaar Card Number*">
+                    <input type="text" name="address" id="address" placeholder="Permanenet Address*">
+                    <input type="date" name="joindate" id="joindate" placeholder="Joining Date*">
+                </form>
+            </div>
+        </div>
+        <div class="register-footer">
+            <form>
+                <div class="checkbox">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Check if you fill the form</label>
+                </div>
+                <button>Submit</button>
+            </form>
+            <div class="or">
+                <p>Or</p>
+            </div>
+            <p>Already Registered?<a href="Teacherlogin.html">Login</a></p>
+        </div>
+    </div>
+    <!-- Include UIKit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
