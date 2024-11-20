@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Welcome Page Styling */
+.welcome {
+    height: 80%;
+    margin: 2rem;
+    border-radius: 20px;
+    background-color: rgb(237, 243, 245);
+}
+.welcome-nav {
+    height: 50px;
+    padding: 2.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-nav .logo img {
+    width: 50px;
+    height: 50px;
+}
+.welcome-nav .logo {
+    display: flex;
+    color: black;
+    font-weight: 550;
+    align-items: center;
+    gap: 0.4rem;
+}
+.welcome-nav .rhs-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+.logo-txt1{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+.home {
+    margin-left: 6rem;
+}
+.home a{
+    color: gray;
+    text-decoration: none;
+}
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.welcome-page-logo {
+    z-index: 10;
+    margin-top: 2rem;
+    width: 400px;
+}
+.welcome-page-txt {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.welcome-page-txt .txt1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 4rem;
+}
+.welcome-page-txt .txt2 {
+    font-family: "Poppins", sans-serif;
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.welcome-page-btn {
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wpb {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+/* Student Login Styling */
+.student-login-main {
+    height: 88vh;
+    width: 100vw;
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.register-side {
+    background-color: black;
+    color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: start;
+    gap: 8rem;
+}
+.r-side1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rs1-p1 {
+    width: 80%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.rs1-p2 {
+    width: 80%;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.r-side2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rs2-p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.rs2-b1 {
+    background-color: red;
+    font-size: 1.4rem;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+.login-side-main {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.login-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 3rem;
+}
+.login-side h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px;
+}
+.slogin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-label {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.login-input {
+    padding: 0.8rem 1rem;
+    text-align: start;
+    font-size: 1.5rem;
+    width: 400px;
+    margin-bottom: 1rem;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 1rem 1rem 1rem ;
+}
+.login-button {
+    display: block;
+    background-color: red;
+    font-size: 1.4rem;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.red-btn {
+    margin-top: 1.5rem;
+}
+.red-btn:hover {
+    background-color: rgb(240, 41, 41);
+}
